@@ -1,0 +1,45 @@
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ── Node / Frontend ───────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/build/
+
+# ── Environment — NEVER commit real secrets ───────────────
+.env
+.env.local
+.env.production
+.env.development
+backend/.env
+
+# ── IDE ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Docker volumes ────────────────────────────────────────
+postgres_data/
